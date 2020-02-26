@@ -1,0 +1,82 @@
+* {
+    background-color: #263238;
+    color: white;
+    font-family: 'Armata' ;
+}
+#flexBox1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: auto;
+    float: left;
+    /* border: black 1px solid; */
+}
+.foodItems {
+    padding: 10px;
+    float: left;
+    margin: auto;
+}
+.centerText {
+    text-align: center;
+}
+.margin{
+    margin: 10px;
+}
+#gridBox1 {
+    display: grid;
+    grid-gap: 20px;
+    padding: 10px;
+    margin: auto;
+    grid-template-columns: 10% 23% 20% 20% 20%;
+    grid-template-rows: auto auto;
+    border: 1px solid white;
+    clear: both;
+    grid-template-areas: 
+    'a b c d e'
+    'f g h j j';
+}
+#gridBox1 div{
+    border: black 1px solid;
+    padding: 10px;
+}
+#foodItem1 {
+    grid-area: a;
+}
+#foodItemName {
+    grid-area: b;
+}
+#price {
+    grid-area: c;
+}
+#tax {
+    grid-area: d;
+}
+#finalAmount {
+    grid-area: e;
+}
+#total {
+    grid-area: j;
+    float: left;
+    clear: left;
+}
+.discount{
+    margin: 10px;
+    padding: 10px;
+    font-size: small;
+}
+@media (max-width: 992px) {
+    #flexBox1 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media (max-width: 768px) {
+    #flexBox1 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: auto;
+    }
+}

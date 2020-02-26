@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Armata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h3 class="centerText">Bill Reciept</h3>
+    <div id="flexBox1">
+        <div class="foodItems">Food Item Name<input type="text" id="foodName" class="margin"></div>
+        <div class="foodItems">Qty<input type="number" id="qty" class="margin"></div>
+        <div class="foodItems"><input type="submit" value="Submit" class="margin" id="sub"></div>
+    </div>
+    <div id="gridBox1">
+        <div id="Qt">
+            <h5>Qty<h5>
+
+        </div>
+        <div id="foodItemName">
+            <h5>Item Name</h5>
+
+        </div>
+        <div id="price">
+            <h5>Price per plate(Rs)</h5>
+
+        </div>
+        <div id="tax">
+            <h5>Tax</h5>
+
+        </div>
+        <div id="finalAmount">
+            <h5>Amount + Tax</h5>
+
+        </div>
+        <div id='total' class="centerText">
+            <div id="dis">Discount</div>
+            <div id="tip">Tip
+                <br>
+                <input type="text" id="btn" class="margin">
+            </div>
+            <div id="totBeforeDiscount">Total</div>
+            <div id="tot">Total After Discount</div>
+        </div>
+    </div>
+    <div class="centerText">**10% discount on bill more than 300 Rs**</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
