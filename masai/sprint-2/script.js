@@ -82,9 +82,6 @@ function createTable() {
             }
             console.log(totalAmount)
 
-            
-            
-
             var dis = document.createElement('p')
             discount.appendChild(dis)
             

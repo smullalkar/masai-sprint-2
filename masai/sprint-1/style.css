@@ -1,0 +1,144 @@
+header {
+    padding: 30px;
+    background-color: #E6EE9C;
+    border: 1px solid #6D4C41;
+    border-radius: 10px 30px 10px 30px;
+    margin: 5px;
+}
+.heading {
+    font-family: 'Fredericka the Great', cursive;
+}
+.button {
+    color: white;
+    background-color: #263238;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 10px;
+} 
+.button:hover {
+    background-color: white;
+    color: #263238;
+    border: 10px ridge black;
+    font-size: 30px;
+}
+footer {
+    color: #6D4C41;
+    padding: 10px;
+    border: 1px solid #6D4C41;
+    border-radius: 10px 30px 10px 30px;
+    margin: 20px 0;
+    background-color: #E6EE9C;
+}
+.centre-text {
+    text-align: center;
+}
+.left-text {
+    text-align: left !important;
+}
+.footer-icon {
+    margin: 10px;
+    font-size: 30px;
+}
+.right-float {
+    float: right;
+    margin-left: 5px;
+}
+.left-float {
+    float: left;
+    margin-right: 5px;
+}
+.normal-font {
+    font-family: 'Electrolize', sans-serif;
+}
+.grid-box {
+    display: grid;
+    grid-gap: 20px;
+}
+.grid-item {
+    border: 1px solid  #6D4C41;
+    border-radius: 4px;
+}
+.grid-item img {
+    width: 100%;
+}
+.grid1-box {
+    display: grid;
+    grid-gap: 20px;
+}
+.grid1-item img {
+    width: 30%;
+}
+
+/* index1 */
+#margin-top {
+    margin-top: 20px;
+}
+/* Feedback */
+.flexbox{
+    display: flex;
+    margin: 20px;
+}
+.flexbox div{
+    flex-basis: auto;
+    padding: 10px;
+    flex-direction: column;   
+}
+label {
+    font-family: 'Electrolize', sans-serif;
+}
+#clear-left {
+    clear: left;
+}
+input,
+label {
+    margin: .4rem 0;
+    width: 300px;
+}
+#height {
+    height: 60px;
+}
+#margin-feedback {
+    margin-right: 100px;
+}
+.feedback {
+    text-align: center;
+    font-size: 30px;
+    padding: 80px;
+    background-color: #B0BEC5;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .grid-box {
+        grid-template-columns: 100%;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .grid-box {
+        grid-template-columns: 50% 50%;
+    }
+} 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .grid-box {
+        grid-template-columns: 33% 33% 33%;
+    }
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .grid-box {
+        grid-template-columns: 33% 33% 33%;
+    }
+} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .grid-box {
+        grid-template-columns: 33% 33% 33%;
+    }
+    .grid1-box {
+        grid-template-rows: 100%;
+    }
+}
